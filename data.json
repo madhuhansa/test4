@@ -1,0 +1,37 @@
+{
+    "users":[
+        {"username": "yahan", "password": "2000"},
+        {"username": "chathuri", "password": "1008"},
+        {"username": "abhilashi", "password": "0427"},
+        {"username": "madhuka", "password": "1030"}
+    ],
+    "feed":[
+        {
+            "id": 1,
+            "user":"yahan",
+            "content":"Hi how are you ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+            "like":1,
+            "liked_users": ["yahan"]
+        },
+        {
+            "id": 2,
+            "user":"yahan",
+            "content":"i am fine",
+            "like":2,
+            "liked_users": ["yahan","chathuri"]
+        },
+        {
+            "id": 3,
+            "user":"abhilashi",
+            "content":"i am fine",
+            "like":1,
+            "liked_users": ["yahan"]
+        }
+    ],
+    "Total-likes":[
+        {"username": "yahan", "totle": "3"},
+        {"username": "chathuri", "totle": "0"},
+        {"username": "abhilashi", "totle": "1"},
+        {"username": "madhuka", "totle": "0"}
+    ]
+}
